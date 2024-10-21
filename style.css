@@ -102,6 +102,25 @@ input[type=radio]:checked ~ label {
     color: #0DFF92;
 }
 
+.submit-button {
+    background-color: #0DFF92; /* Cor de fundo verde */
+    color: #FFFFFF; /* Cor do texto em branco */
+    border: none; /* Remover borda padrão */
+    padding: 15px 30px; /* Espaçamento dentro do botão */
+    font-size: 16px; /* Tamanho do texto */
+    font-weight: bold;
+    border-radius: 5px; /* Canto levemente arredondado */
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; /* Centraliza o botão */
+
+}
+
+.submit-button:hover {
+    background-color: #0BB87D; /* Cor de fundo mais escura ao passar o mouse */
+}
+
+
 .assinatura {
     margin: 10px auto;
     padding: 10px 0;
