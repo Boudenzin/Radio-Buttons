@@ -15,3 +15,52 @@ body, html{
     padding: 20px;
 
 }
+
+h2 {
+    color:#AAAAAA;
+}
+
+.container ul{
+    list-style: 0;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+ul li{
+    color:#AAAAAA;
+    display:block;
+    position:relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px;/*solid #333*/
+
+}
+
+ul li input[type=radio] {
+    position: absolute;
+    visibility: hidden;
+
+}
+
+ul li label {
+    display:block;
+    position: relative;
+    padding: 20px 20px 20px 80px;
+    font-size:16px;
+    font-weight: bold; /*300*/
+    margin: 10px auto;
+    height: 30 px;
+    z-index:10;
+    cursor: pointer;
+    -webkit-transition: all 0.25s linear;/*black toggle*/
+
+}
+
+ul li:hover .check{ /*No final eu ainda tenho que cuidar do hover*/
+    display: block;
+    position: absolute;
+    /*TODO*/
+
+}
